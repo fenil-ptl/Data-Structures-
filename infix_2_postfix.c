@@ -1,3 +1,8 @@
+// Name : Meet P Jariwala
+// Enrollment number : ET22BTCO046
+
+/* Write a program to convert infix notation to postfix notation using stack */
+
 # include<stdio.h> 
 # include<stdlib.h>
 # include<string.h>
@@ -13,6 +18,7 @@ int r(char next);
 
 int main()
 {
+    printf("\nCode prepared by -> Meet Jariwala -> ET22BTCO046\n");
 
     char stack[SIZE], infix[SIZE], polish[SIZE], temp[2], next;
     int t, *top = &t, i = 0, rank, l;
